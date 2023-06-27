@@ -6,3 +6,5 @@ Day 1 :- Modeling Styles Of RTL in Verilog.
 Day 2 :- Basic Adders 
 
 Day 3 :- Basic Subtractors
+
+Day 4 :- Barrel Shifter
