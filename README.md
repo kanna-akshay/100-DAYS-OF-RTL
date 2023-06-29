@@ -10,3 +10,5 @@ Day 3 :- Basic Subtractors
 Day 4 :- Barrel Shifter
 
 Day-5: Binary to Gray code, Gray code to Binary Converter
+
+Day-6: 4 Bit Adder-Subtractor Circuit
