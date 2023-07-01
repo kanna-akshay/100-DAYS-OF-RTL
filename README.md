@@ -14,3 +14,5 @@ Day-5: Binary to Gray code, Gray code to Binary Converter
 Day-6: 4 Bit Adder-Subtractor Circuit
 
 Day 7 : ALU
+
+Day 8 : Comparators
