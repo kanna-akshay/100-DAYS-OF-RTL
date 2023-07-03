@@ -21,3 +21,5 @@ Day 9 : Priority encoder
 
 Day 10: Flip Flop as a storage element
 
+Day 11: 8 Byte Memory Unit
+
