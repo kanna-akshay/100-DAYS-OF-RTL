@@ -18,3 +18,6 @@ Day 7 : ALU
 Day 8 : Comparators
 
 Day 9 : Priority encoder
+
+Day 10: Flip Flop as a storage element
+
