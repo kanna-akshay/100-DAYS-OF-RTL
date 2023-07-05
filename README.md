@@ -23,3 +23,5 @@ Day 10: Flip Flop as a storage element
 
 Day 11: 8 Byte Memory Unit
 
+Day 12 : Parity Generator
+
