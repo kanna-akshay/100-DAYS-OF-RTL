@@ -30,3 +30,6 @@ Day 13 : Demultiplexer
 Day 14 : Multiplexer
 
 Day 15 : Carry Look Ahead Adder
+
+Day 16 : Carry Skip Adder
+
