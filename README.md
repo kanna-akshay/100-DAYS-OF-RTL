@@ -28,3 +28,5 @@ Day 12 : Parity Generator
 Day 13 : Demultiplexer
 
 Day 15 : Multiplexer
+
+Day 16 : Carry Look Ahead Adder
