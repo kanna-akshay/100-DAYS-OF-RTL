@@ -5,7 +5,7 @@ reg carryin;
 wire [3:0]sum;
 wire carryout;
 
-carryLookAheadAdder4Bit DUT(a, b, carryin, carryout,sum);
+CLA DUT(a, b, carryin, carryout,sum);
 
 initial 
 begin

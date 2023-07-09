@@ -1,6 +1,6 @@
 // 4 Bit CarryLook Ahead addercode
-module carryLookAheadAdder4Bit(A, B, carryIn, carryOut,sum);
-	input [3:0] A, B ;
+module CLA(a, b, carryIn, carryOut,sum);
+	input [3:0] a, b ;
 	input  carryIn;
 	output [3:0] sum;
 	
@@ -10,17 +10,17 @@ module carryLookAheadAdder4Bit(A, B, carryIn, carryOut,sum);
 	
 	output carryOut;
 	
-	wire[3:0]P ,G ,C;
+	wire[3:0]p ,g ,c;
 	
-	assign G= A & B;
-	assign P= A ^ B;
-	assign sum = P ^ C;
-	
-	assign C[0]=carryIn;
-	
-	assign C[1]= G[0]|(P[0]|C[0]);
-	assign C[2]= G[1]|(P[1]&C[0]|(P[0]&P[1]&C[0]));
-	assign C[3]= G[2]|(G[1]&P[2]|(P[2]&P[1]&C[0])|(P[2]&P[0]&P[1]&C[0]));
-	assign carryOut=C[3];
+  assign p=a^b;
+  assign g=a&b;
+
+
+assign c[0]=carryIn;
+assign c[1]= g[0]|(p[0]&c[0]);
+assign c[2]= g[1] | (p[1]&g[0]) | p[1]&p[0]&c[0];
+assign c[3]= g[2] | (p[2]&g[1]) | p[2]&p[1]&g[0] | p[2]&p[1]&p[0]&c[0];
+assign carryOut= g[3] | (p[3]&g[2]) | p[3]&p[2]&g[1] | p[3]&p[2]&p[1]&g[0] | p[3]&p[2]&p[1]&p[0]&c[0];
+assign sum=p^c;
 	
 endmodule
