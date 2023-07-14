@@ -39,4 +39,6 @@ Day 18 : Multiplier
 
 Day 19 :SR_Flipflop
 
+Day 20 :D_Flipflop
+
 
