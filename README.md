@@ -41,4 +41,6 @@ Day 19 :SR_Flipflop
 
 Day 20 :D_Flipflop
 
+Day 21 :JK_Flipflop
+
 
