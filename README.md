@@ -43,4 +43,6 @@ Day 20 :D_Flipflop
 
 Day 21 :JK_Flipflop
 
+Day 22:T_Flipflop
+
 
