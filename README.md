@@ -45,4 +45,6 @@ Day 21 :JK_Flipflop
 
 Day 22:T_Flipflop
 
+Day 23:JK_Flipflop_using_D_Flipflop
+
 
