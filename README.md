@@ -47,4 +47,6 @@ Day 22:T_Flipflop
 
 Day 23:JK_Flipflop_using_D_Flipflop
 
+Day 24:Up-Down Counter
+
 
