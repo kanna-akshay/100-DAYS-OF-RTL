@@ -49,4 +49,6 @@ Day 23:JK_Flipflop_using_D_Flipflop
 
 Day 24:Up-Down Counter
 
+Day 25:Mod 2,5,10 Counter using 7490 IC
+
 
