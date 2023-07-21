@@ -51,4 +51,6 @@ Day 24:Up-Down Counter
 
 Day 25:Mod 2,5,10 Counter using 7490 IC
 
+Day 26:Sequence_detector_011
+
 
