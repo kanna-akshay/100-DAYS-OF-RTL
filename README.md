@@ -55,4 +55,5 @@ Day 26:Sequence_detector_011
 
 Day 27:Even_odd_BCD_counter
 
+Day 28:Booths Multiplier
 
